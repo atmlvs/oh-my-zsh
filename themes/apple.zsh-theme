@@ -16,7 +16,7 @@ zstyle ':vcs_info:*' actionformats \
 zstyle ':vcs_info:*' formats       \
     '%F{5}%F{5}[%F{2}%b%c%u%F{5}]%f '
 zstyle ':vcs_info:(sv[nk]|bzr):*' branchformat '%b%F{1}:%F{3}%r'
-zstyle ':vcs_info:*' enable git cvs svn
+zstyle ':vcs_info:*' enable git cvs svn hg
 
 theme_precmd () {
     vcs_info
